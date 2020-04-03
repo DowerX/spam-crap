@@ -1,0 +1,22 @@
+- type: "MouseMove"
+  x: 950
+  y: 950
+  relative: false
+  time: 0.1
+- type: "Wait"
+  time: 3
+- type: "MouseMove"
+  x: 100
+  y: 10
+  relative: true
+  time: 0.1
+- type: "MouseClick"
+  button: "left"
+- type: "KeyboardType"
+  text: "Hello World"
+- type: "KeyboardKey"
+  button: "enter"
+  position: true
+- type: "KeyboardKey"
+  button: "enter"
+  position: false
